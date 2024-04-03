@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+
+    <nav class="bg-deepBlue">
+        <div class="relative w-[1080px] h-[90px] mx-auto flex items-center justify-between">
+
+            <a href="/" class="cursor-pointer py-7 pr-8">
+                <img src="logo_circle-removebg-preview.png" 
+                width="125px"
+                height='30px'
+                alt="">
+            </a>
+
+            <ul class="flex space-x-6">
+
+                <li class="font-serif py-7 cursor-pointer relative group text-blue-300 font-extrabold">
+                <a href="#">VIRTUAL LABS</a>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer 
+                transition-all duration-200 relative group">
+                <a href="#">Home</a>
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer 
+                transition-all duration-200 relative group">
+                <a href="#">Theory</a>
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer 
+                transition-all duration-200 relative group">
+                <a href="#">Animations</a>
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer 
+                transition-all duration-200 relative group">
+                <a href="#">Practice Questions</a>
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer 
+                transition-all duration-200 relative group">
+                <a href="#">Quiz</a>
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer 
+                transition-all duration-200 relative group">
+                <a href="#">Contact Us</a>
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
+                </li>
+            </ul>
+
+            <!-- <div class="flex gap-6">
+                <img src="india-flag.svg" 
+                width="28px"
+                height="20px"
+                alt="">
+            </div> -->
+
+            <button class="px-5 py-3 bg-deepBlue text-white font-mullish border-lightBlue border rounded-sm text-sm font-bold">Log in</button>
+            <button class="px-6 py-3 bg-white text-lightBlue300 rounded-md hover:text-blue-500 font-bold font-mullish transition-all duration-200 text-sm">Sign Up</button>
+        </div>
+    </nav>
+
+    <section class="mx-10 text-xl font-mullish text-gray-500">
+        <br>
+        <div class="text-deepBlue font-bold text-[25px]">
+            <p>Experiment - 1</p>
+            <br>
+            <div class="w-full h-1 bg-deepBlue"></div>
+        </div>
+        <br>
+
+        <div>
+            <p class="text-deepBlue font-bold text-[25px] mb-3">Aim - </p>
+            <p>Understand and implement the concept of linear data structure such as singly linked list, doubly linked list and circular linked list</p>
+            <br>
+            <div class="w-full h-1 bg-deepBlue"></div>
+        </div>
+
+        <br>
+        <div>
+            <p class="text-deepBlue font-bold text-[25px] mb-3">Objective -</p>
+            <p>In this experiment on Linked Lists, you will learn following topics:</p>
+            <br>
+            <ol>
+                <li>Introduction</li>
+                <li>What is linked list?</li>
+                <li>How is linked list stored in memory?</li>
+                <li>Types of Linked Lists(Operations and time complexity analysis of each type)</li>
+                <li>Singly linked List</li>
+                <li>Doubly Linked List</li>
+                <li>Circular Linked List</li>
+            </ol>
+            <br>
+            <div class="w-full h-1 bg-deepBlue"></div>
+        </div>
+        <br>
+        <div>
+            <p class="text-deepBlue font-bold text-[25px] mb-3">Theory -</p>
+            <p>Linked list is a linear data structure where each data is a separate object (of same data type). Linked list objects do not occupy 
+                the contiguous memory location as compared to the array which is also
+                 a linear data structure where elements have contiguous memory allocation, 
+                 instead linked lists are linked using pointers. Elements of the linked
+                  lists are known as Nodes.</p>
+                  <br>
+            <p>There are three types of linked lists:</p>
+                <br>
+                <ul>
+                <li>Singly Linked List</li>
+               <li> Doubly Linked List</li> 
+               <li>Circular Linked list</li> 
+               </ul>    
+            <br>
+            <p class="font-bold">Singly Linked List (SLL)</p>
+            <br>
+            <p>Each Node of the singly list consists of two parts:</p>
+            <ul>
+                <li>First part of the singly linked list Node contains the information to be stored.</li>
+                <li>Second part of the singly linked list Node contains the address of either its next Node or it previous Node and is a pointer.</li>
+                <li>Head is a pointer that store the address of the first Node of the list. Tail is also a pointer that holds the address of the last Node of the list.</li>
+                <li>Each Node of the singly linked list store the address of its next Node and in that way all the data of the singly linked list gets linked to each other.</li>
+            </ul>
+            <br>
+            <br>
+            <img class="w-[700px] h-[200px] mx-56" src="sll.jpg" alt="">
+            <p class="font-bold mx-96">Figure: Singly Linked List (SLL)</p>
+            <br>
+            <br>
+            <!-- <div class="w-full h-1 bg-deepBlue"></div> -->
+
+            <p class="font-bold mb-4">Doubly Linked List (DLL)</p>
+            <p>Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
+                In a singly linked list, we could traverse only in one direction, because each node contains address of the next node and it doesn't have any record of its previous nodes. However, doubly linked list overcome this limitation of singly linked list. Due to the fact that, each node of the list contains the address of its previous node, we can find all the details about the previous node as well by using the previous address stored inside the previous part of each node.
+            </p>
+            <img class="w-[700px] h-[400px] mx-56" src="dll.jpg" alt="">
+            <p class="font-bold mx-96 mt-0 ">Figure: Doubly Linked List (DLL)</p>
+
+            <br>
+            <p class="font-bold mb-4">Circular Linked List (CLL)</p>
+            <p>Circular Linked List is a variation of Linked list in which the first 
+                element points to the last element and the last element points to the
+                 first element. Both Singly Linked List and Doubly Linked List can be 
+                 made into a circular linked list.The insertion operation of a 
+                 circular linked list only inserts the element at the start of the 
+                 list. This differs from the usual singly and doubly linked lists as 
+                 there is no particular starting and ending points in this list. The 
+                 insertion is done either at the start or after a particular node 
+                 (or a given position) in the list.</p>
+            <img class="w-[700px] h-[200px] mx-48" src="cll.jpg" alt="">
+            <p class="font-bold mx-96">Figure: Circular Linked List (CLL)</p>
+            <br>
+            <div class="w-full h-1 bg-deepBlue"></div>
+        </div>
+        <br>
+        
+        <div>
+            <p class="text-deepBlue font-bold text-[25px] mb-2">Conclusion -</p>
+            <p>Students have understood and implemented the logic of singly linked list, doubly linked list and circular linked list.</p>
+        </div>
+        <br>
+        <div class="w-full h-1 bg-deepBlue"></div>
+    </section>
+    <br><br><br>
+</body>
+</html>
